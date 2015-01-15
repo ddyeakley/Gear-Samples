@@ -79,29 +79,29 @@ structure, but little in the way of example code.
 
 Tizen basic application.
 
-![Basic/TizenW_basic](./Samples/Basic/TizenW_basic/screenshot.png)
+![Basic/TizenW_basic](./Templates/Basic/TizenW_basic/screenshot.png)
 
 ## Basic/TizenW_jquery_template
 
 Basic application based on JQuery.
 
-![Basic/TizenW_jquery_template](./Samples/Basic/screenshot.png)
+![Basic/TizenW_jquery_template](./Templates/Basic/screenshot.png)
 
 ## IME_Application/ime_app
 
 This is the web-based IME application template, which lets you to create your own IME only by writing HTML, CSS and Javascript code.
 
-![IME_Application/ime_app](./Samples/IME_Application/ime_app/screenshot.png)
+![IME_Application/ime_app](./Templates/IME_Application/ime_app/screenshot.png)
 
 ## Wearable_UI/Basic
 
 Wearable UI basic application.
 
-![Wearable_UI/Basic](./Samples/Wearable_UI/Basic/screenshot.png)
+![Wearable_UI/Basic](./Templates/Wearable_UI/Basic/screenshot.png)
 
 ## Wearable_UI/List
 
 Wearable UI list application.
 
-![Wearable_UI/List](./Samples/Wearable_UI/List/screenshot.png)
+![Wearable_UI/List](./Templates/Wearable_UI/List/screenshot.png)
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<title>Wearable UI</title>
+	<link rel="stylesheet"  href="../../lib/tau/wearable/theme/changeable/tau.css">
+	<link rel="stylesheet"  href="../../css/style.css">
+</head>
+
+<body>
+<div class="ui-page">
+	<header class="ui-header">
+		<h2 class="ui-title">Option Popup</h2>
+	</header>
+	<div class="ui-content">
+		<ul class="ui-listview">
+			<li><a href="#popupOptionText" data-rel="popup"  data-position-to="origin">Text</a></li>
+			<li><a href="#popupOptionIconText" data-rel="popup" data-position-to="origin">Icon + Text</a></li>
+			<li><a href="#popupOptionIcon" data-rel="popup" data-position-to="origin">Only Icon</a></li>
+			<li><a href="#popupOptionInlineTextIcon" data-rel="popup" data-position-to="origin">Text or Icon</a></li>
+		</ul>
+	</div>
+
+	<div id="popupOptionText" class="ui-popup">
+		<div class="ui-popup-content">
+			<ul class="ui-listview">
+				<li><a href="#">Option 1</a></li>
+				<li><a href="#">Option 2</a></li>
+				<li><a href="#">Option 3</a></li>
+				<li><a href="#">Option 4</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="popupOptionIconText" class="ui-popup">
+		<div class="ui-popup-content">
+			<ul class="ui-listview">
+				<li><a class="ui-list-icon option-icon-share" href="#">Option 1</a></li>
+				<li><a class="ui-list-icon option-icon-action" href="#">Option 2</a></li>
+				<li><a class="ui-list-icon option-icon-delete" href="#">Option 3</a></li>
+				<li><a class="ui-list-icon option-icon-share" href="#">Option 4</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="popupOptionIcon" class="ui-popup ui-popup-content-size">
+		<div class="ui-popup-content">
+			<ul class="ui-inline-listview" style="width:286px;">
+				<li><a class="ui-list-icon-notext option-icon-notext-call" href="#">Option 1</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-contacts" href="#">Option 2</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-message" href="#">Option 3</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-call" href="#">Option 4</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-contacts" href="#">Option 5</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="popupOptionInlineTextIcon" class="ui-popup ui-popup-content-size">
+		<div class="ui-popup-content">
+			<ul class="ui-inline-listview" style="width:310px;">
+				<li><a href="#">Text1</a></li>
+				<li><a href="#">Text2</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-call" href="#">Icon Option 1</a></li>
+				<li><a class="ui-list-icon-notext option-icon-notext-contacts" href="#">Icon Option 1</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="../../lib/tau/wearable/js/tau.js"></script>
+</body>
+</html>

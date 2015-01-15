@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://sample-web-application.tizen.org/Pedometer" version="2.2.0" viewmodes="fullscreen">
+    <tizen:application id="QiIuG1b0CE.Pedometer" package="QiIuG1b0CE" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.320.320"/>
+    <icon src="icon.png"/>
+    <name>Pedometer</name>
+    <tizen:setting background-support="enable"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>

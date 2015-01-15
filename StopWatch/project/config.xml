@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://sample-web-application.tizen.org/StopWatch" version="1.0.0" viewmodes="maximized">
+    <tizen:app-control>
+        <tizen:src name="index.html"/>
+        <tizen:operation name="http://tizen.org/appcontrol/operation/alarm"/>
+    </tizen:app-control>
+    <tizen:application id="V1zuS1QEN6.StopWatch" package="V1zuS1QEN6" required_version="2.2"/>
+    <tizen:setting background-support="enable"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>StopWatch</name>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+</widget>

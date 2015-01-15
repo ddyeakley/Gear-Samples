@@ -1,0 +1,294 @@
+#main-title {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 60px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#main-working-space {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#main-calibration-monit {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#main-calibration-monit-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 85px;
+    display: -webkit-flex;
+}
+
+#main-calibration-monit-message p {
+    width: 80%;
+    text-align: center;
+    font-size: 26px;
+    margin: auto;
+}
+
+#main-calibration-monit-buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 85px;
+}
+
+.main-button {
+    float: left;
+    height: inherit;
+    width: 50%;
+    position: relative;
+}
+
+.main-button a {
+    position: absolute;
+    background: #333;
+    display: -webkit-flex;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.main-button a:active {
+    background: #555;
+}
+
+.main-button a span {
+    margin: auto;
+}
+
+#main-calibration-monit-buttons-yes a {
+    left: 2px;
+    right: 1px;
+    top: 0px;
+    bottom: 2px;
+}
+
+#main-calibration-monit-buttons-no a {
+    left: 1px;
+    right: 2px;
+    top: 0px;
+    bottom: 2px;
+}
+
+#main-calibration-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/calibrate.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main-reference {
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    right: 50%;
+    height: 55px;
+    color: #9ba099;
+}
+
+#main-reference-label {
+    position: absolute;
+    top: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#main-reference-value {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#main-pressure {
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    left: 50%;
+    height: 55px;
+    color: #9ba099;
+}
+
+#main-pressure-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: right;
+}
+
+#main-pressure-value {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#main-altitude {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: -7px;
+    right: -7px;
+    display: -webkit-flex;
+}
+
+#main-altitude-frame {
+    margin: auto;
+    text-align: center;
+    z-index: 0;
+    color: #000;
+    text-shadow: 5px 5px 10px #555;
+}
+
+#main-altitude-value {
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+#main-altitude-unit {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#main-altitude-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#main-altitude-background-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+}
+
+#main-altitude-background-left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/digital_left_top.png');
+}
+
+#main-altitude-background-left-center {
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    bottom: 40px;
+    background-image: url('../images/digital_left.png');
+}
+
+#main-altitude-background-left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/digital_left_bottom.png');
+}
+
+#main-altitude-background-center {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    right: 40px;
+    bottom: 0;
+}
+
+#main-altitude-background-center-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-image: url('../images/digital_top.png');
+}
+
+#main-altitude-background-center-center {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    background: #9ba099;
+}
+
+#main-altitude-background-center-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    background-image: url('../images/digital_bottom.png');
+}
+
+#main-altitude-background-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+}
+
+#main-altitude-background-right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/digital_right_top.png');
+}
+
+#main-altitude-background-right-center {
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    bottom: 40px;
+    background-image: url('../images/digital_right.png');
+}
+
+#main-altitude-background-right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/digital_right_bottom.png');
+}
+
+.hidden {
+    display: none;
+}

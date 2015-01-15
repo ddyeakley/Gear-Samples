@@ -1,0 +1,144 @@
+/* ----------------------------
+    - Month page
+
+-----------------------------*/
+
+
+
+/* ----------------------------
+    Month page
+-----------------------------*/
+
+#month-page {
+    -webkit-user-select: none;
+}
+
+#month-page table.month {
+    width: 100%;
+    height: 100%;
+    color: #393939;
+    background-color: #efece0;
+    border-collapse: collapse;
+    z-index: 2;
+}
+
+#month-page table.month thead {
+    font-size: 18px;
+    font-weight: 100;
+    background-color: #ded8c4;
+    line-height: 26px;
+}
+
+#month-page table.month thead tr {
+    border: 1px solid #bcb7a6;
+    border-left-width: 0;
+    border-right-width: 0;
+    background-color: #ded8c4;
+}
+
+#month-page table.month thead th.holiday {
+    color: #af4a49;
+}
+
+#month-page table.month td {
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#month-page table.month td:first-child {
+    color: #ab3c3c;
+}
+
+#month-page table.month td.inactive {
+    color: #9b9689;
+}
+
+#month-page table.month td:first.inactive {
+    color: #e0b9b4;
+}
+
+#month-page table.month td div {
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    width: 42px;
+}
+
+/* The order events->today->tap is important */
+#month-page table.month td.events div {
+    background-color: #fcfbf7;
+    box-shadow: -1px -1px 1px #e1dfd7 inset, 1px 1px 1px #ffffff inset;
+}
+
+#month-page table.month td.today div {
+    background-color: #e1e1e1;
+    box-shadow: -1px -1px 1px #c9c8c4 inset, 1px 1px 1px #eeeeee inset;
+}
+
+#month-page table.month td.selected div {
+    color: white;
+    background-color: #3b73b6;
+    box-shadow: -1px -1px 1px #35669f inset, 1px 1px 1px #8cadd4 inset;
+}
+
+#month-page table.month td.tap div {
+    color: white;
+    background-color: #30609a;
+    box-shadow: 0 0 10px #000000 inset;
+}
+
+#month-page-content .ui-scrollview-view {
+    overflow: hidden;
+}
+
+#month-footer button {
+    border: 1px solid #fff;
+}
+
+#prev-month-btn, #next-month-btn {
+    width: 33%;
+}
+
+#current-month-btn {
+    width: 34%;
+}
+
+#month-events-list .event-cover {
+    padding-left: 5px;
+    border-left: 4px solid #e0a74f;
+}
+
+#month-events-list .event-sub-text {
+    color: #4F4F4F;
+    font-size: 16px;
+}
+
+#month-events-list .ui-swipe-item-cover .ui-swipe-item-cover-inner {
+    padding-left: 0px;
+}
+
+.ui-fixed-hidden {
+    position: fixed;
+}
+
+.ui-content {
+    background: #efece0;
+}
+
+.ui-footer > button {
+    height: inherit;
+}
+
+#month-table tr {
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden;
+}

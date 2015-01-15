@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta charset="utf-8"/>
+    <meta name="description" content="Calendar"/>
+    <title>Calendar</title>
+    <link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<body>
+
+    <div class="ui-page ui-page-active invisible" id="month-page">
+        <div class="ui-header" data-position="fixed">
+            <h2 id="month-header" class="ui-title"></h2>
+        </div>
+        <div class="ui-content" id="month-page-table-content"></div>
+        <div id="month-footer" class="ui-footer ui-grid-col-3">
+            <button type="button" class="ui-btn" id="prev-month-btn">Prev</button>
+            <button type="button" class="ui-btn" id="current-month-btn">Today</button>
+            <button type="button" class="ui-btn" id="next-month-btn">Next</button>
+        </div>
+    </div>
+
+    <script src="./lib/tau/wearable/js/tau.js"></script>
+    <script src="./js/core/core.js" data-main="./js/app.js"></script>
+
+</body>
+</html>

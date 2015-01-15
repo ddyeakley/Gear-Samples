@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta charset="utf-8"/>
+    <meta name="description" content="Altimeter"/>
+    <title>Altimeter</title>
+    <link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<body>
+
+    <div class="ui-page ui-page-active" id="main">
+        <div id="main-content" class="ui-content hidden">
+            <div id="main-title">Altimeter</div>
+            <div id="main-working-space" class="hidden">
+                <div id="main-altitude">
+                    <div id="main-altitude-background">
+                        <div id="main-altitude-background-left">
+                            <div id="main-altitude-background-left-top"></div>
+                            <div id="main-altitude-background-left-center"></div>
+                            <div id="main-altitude-background-left-bottom"></div>
+                        </div>
+                        <div id="main-altitude-background-center">
+                            <div id="main-altitude-background-center-top"></div>
+                            <div id="main-altitude-background-center-center"></div>
+                            <div id="main-altitude-background-center-bottom"></div>
+                        </div>
+                        <div id="main-altitude-background-right">
+                            <div id="main-altitude-background-right-top"></div>
+                            <div id="main-altitude-background-right-center"></div>
+                            <div id="main-altitude-background-right-bottom"></div>
+                        </div>
+                    </div>
+                    <div id="main-altitude-frame">
+                        <div id="main-altitude-value"></div>
+                        <div id="main-altitude-unit">[m]</div>
+                    </div>
+                </div>
+                <div id="main-calibration-btn"></div>
+                <div id="main-reference">
+                    <div id="main-reference-label">Reference [hPa]</div>
+                    <div id="main-reference-value">1013.25</div>
+                </div>
+                <div id="main-pressure">
+                    <div id="main-pressure-label">Current [hPa]</div>
+                    <div id="main-pressure-value">1013.25</div>
+                </div>
+            </div>
+            <div id="main-calibration-monit" class="hidden">
+                <div id="main-calibration-monit-message">
+                    <p id="main-calibration-monit-text">
+                        App should be calibrated before use.
+                        <br>
+                        Do you want to do it now?
+                    </p>
+                </div>
+                <div id="main-calibration-monit-buttons">
+                    <div id="main-calibration-monit-buttons-yes" class="main-button">
+                        <a href="#"><span>Yes</span></a>
+                    </div>
+                    <div id="main-calibration-monit-buttons-no" class="main-button">
+                        <a href="#"><span>No</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="alert" class="ui-popup">
+            <div class="ui-popup-content" id="alert-message"></div>
+            <div class="ui-popup-footer">
+                <button class="ui-btn" id="alert-ok">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/tau/wearable/js/tau.js"></script>
+    <script src="./js/core/core.js" data-main="./js/app.js"></script>
+
+</body>
+</html>

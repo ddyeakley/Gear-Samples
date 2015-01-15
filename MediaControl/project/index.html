@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no">
+    <meta charset="utf-8"/>
+    <meta name="description" content="MediaControl"/>
+    <title>MediaControl</title>
+    <link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<body>
+    <div class="ui-page ui-page-active" id="main">
+        <div class="ui-content hidden" id="main-content" data-scroll="none">
+            <div class="centerContainer" id="centerContainer">
+                <div id="volume_up_container">
+                    <div id="volume_up" class="volume_btn button" data-vector="increase"></div>
+                </div>
+                <div id="middle_container">
+                    <div id="artist"></div>
+                    <div id="middle">
+                        <div id="volume_counter" class="play_btn button">15</div>
+                        <div id="play_pause" class="play_btn button"></div>
+                        <div id="play_prev" class="track_btn button"></div>
+                        <div id="play_next" class="track_btn button"></div>
+                    </div>
+                    <div id="title"></div>
+                </div>
+                <div id="volume_down_container">
+                    <div id="volume_down" class="volume_btn button" data-vector="decrease"></div>
+                </div>
+            </div>
+        </div>
+        <div id="alert" class="ui-popup">
+            <div class="ui-popup-content" id="alert-message"></div>
+            <div class="ui-popup-footer">
+                <button class="ui-btn" id="alert-ok">OK</button>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/tau/wearable/js/tau.js"></script>
+    <script src="./js/core/core.js" data-main="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="description.xsl"?>
+<Overview version="1.0">
+  <SampleName>Web IME application</SampleName>
+  <SampleVersion>1.0</SampleVersion>
+  <Preview>screenshot.png</Preview>
+  <Description>
+    This is the web-based IME application template, which lets you to create your own IME only by writing HTML, CSS and Javascript code.
+  </Description>
+</Overview>

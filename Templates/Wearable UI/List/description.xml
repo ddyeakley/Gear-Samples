@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="description.xsl"?>
+<Overview version="1.0">
+  <SampleName>Wearable List application</SampleName>
+  <SampleVersion>1.0</SampleVersion>
+  <Preview>screenshot.png</Preview>
+  <Description>
+    Wearable UI list application.
+  </Description>
+</Overview>

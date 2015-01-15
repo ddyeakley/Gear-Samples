@@ -1,0 +1,139 @@
+/* CSS for web keyboard */
+
+body {
+	background:#111121;
+	margin:0;
+	margin-top:10px;
+	padding:0;
+}
+.tbl1 {
+	border:0px;
+	border-spacing: 2px 1px;
+	width:100%;
+	height:100%;
+}
+.tr25 .td25 {
+	height:25%;
+}
+.tr100 {
+	height:100%;
+}
+.key5 {
+	width:5%;
+	align:center;
+}
+.key10 {
+	width:10%;
+	align:center;
+}
+.key15 {
+	width:15%;
+	align:center;
+}
+.key40 {
+	width:40%;
+	align:center;
+}
+.visible {
+	background-color:#111124;
+	display:block;
+}
+.invisible {
+	background-color:#111124;
+	display:none;
+}
+/* common properties for key */
+.commonBtn, .keyBtn, .keyExBtn, .numsymKeyBtn, .functionKeyBtn, .shiftBtnOff, .shiftBtnOn, .backspaceBtn, .languageBtn,
+.numsymBtn, .spaceBtn, .dotBtn, .enterBtn
+ {
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid #414141;
+	display:inline-block;
+	text-align: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:140%;
+	font-family:arial;
+	text-decoration:none;
+	text-shadow:0pt 1pt 0pt #263666;
+	height:100%;
+}
+.commonBtn:active, .keyBtn:active, .keyExBtn:active, .functionKeyBtn:active, .backspaceBtn:active,
+.spaceBtn:active, .dotBtn:active, .enterBtn:active
+{
+	background-color:#717171;
+	position:relative;
+	top:-11px;
+}
+/* normal ascii key button */
+.keyBtn {
+	background-color:#3d3d3d;
+}
+/* lowercase english key button */
+.keyExBtn {
+	background-color:#3d3d3d;
+	font-size:200%;
+}
+/* numsym key button */
+.numsymKeyBtn {
+	background-color:inherit;
+	font-size:200%;
+}
+/* normal ascii key button */
+.functionKeyBtn {
+	background-color:inherit;
+	font-size:130%;
+}
+/* shift button */
+.shiftBtnOff {
+	background:url(../images/icon_shift.png);
+	background-size:auto 60%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+/* shift button */
+.shiftBtnOn {
+	background:url(../images/icon_shift_on.png);
+	background-size:auto 60%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+/* backspace button */
+.backspaceBtn {
+	background:url(../images/icon_back.png);
+	background-repeat:no-repeat;
+	background-size:auto 60%;
+	background-position:center;
+}
+/* language button */
+.languageBtn {
+	background:url(../images/icon_language.png);
+	background-repeat:no-repeat;
+	background-size:auto 60%;
+	background-position:center;
+}
+/* numsym button */
+.numsymBtn {
+	background-color:#111121;
+	font-size:120%;
+}
+/* space button */
+.spaceBtn {
+	background-repeat:no-repeat;
+	background-size:auto 90%;
+	background-position:center;
+}
+/* dot button */
+.dotBtn {
+	background-color:#111121;
+	font-size:100%;
+}
+/* enter button */
+.enterBtn {
+	background:url(../images/icon_enter.png);
+	background-repeat:no-repeat;
+	background-size:auto 60%;
+	background-position:center;
+}

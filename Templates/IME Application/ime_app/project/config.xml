@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="" package="" required_version="2.2"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <tizen:ime>
+        <tizen:uuid>6135122a-a428-40d2-8feb-a75f462c202c</tizen:uuid>
+        <tizen:languages>
+            <tizen:language>en-us</tizen:language>
+        </tizen:languages>
+    </tizen:ime>
+    <tizen:category name="http://tizen.org/category/ime"/>
+</widget>

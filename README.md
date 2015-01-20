@@ -85,7 +85,7 @@ Tizen basic application.
 
 Basic application based on JQuery.
 
-![Basic/TizenW_jquery_template](./Templates/Basic/screenshot.png)
+![Basic/TizenW_jquery_template](./Templates/Basic/TizenW_jquery_template/screenshot.png)
 
 ## IME_Application/ime_app
 

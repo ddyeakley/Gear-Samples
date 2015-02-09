@@ -1,6 +1,6 @@
 # Gear Samples
 
-These samples are available in the Tizen SDK for Wearable in the 
+These are public samples for the Gear 2 and Gear S. Some of these are available in the Tizen SDK for Wearable in the 
 
 <pre>
 ~/tizen-wearable-sdk/platforms/tizenw-1.0/samples/web/Sample/Tizen/Web App

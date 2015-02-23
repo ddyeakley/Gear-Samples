@@ -20,7 +20,7 @@ Rich Notifications and/or the Samsung Accessory Protocol (SAP).
 
 # License
 
-This font is licensed under terms of the Apache 2 license unless otherwise explicitly licensed.
+The samples in this repo are licensed under terms of the Apache 2 license unless otherwise explicitly licensed.
 
 http://www.apache.org/licenses/LICENSE-2.0
 
